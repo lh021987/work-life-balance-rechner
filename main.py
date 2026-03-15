@@ -78,7 +78,6 @@ print("\nDeine Tagesbalance beträgt: ", round(balance,3))
 
 # Balance speichern
 save_balance(balance)
-2
 # Alle bisherigen Balances laden
 balances = load_balances()
 
@@ -108,3 +107,4 @@ else:
     print("Durchschnitt Woche 1: ", round(w1,3))
     print("Durchschnitt Woche 2: ", round(w2, 3))
     print("Differenz:", round(delta, 3))
+    print("Hinweis:", hint_text)
